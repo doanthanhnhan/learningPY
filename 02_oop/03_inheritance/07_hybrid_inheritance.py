@@ -13,8 +13,6 @@ class ElectricEngine(Engine):  # Child class inherited from Engine
         self.chargeCapacity = chargeCapacity
 
 # Child class inherited from CombustionEngine and ElectricEngine
-
-
 class HybridEngine(CombustionEngine, ElectricEngine):
     def printDetails(self):
         print("Power:", self.power)
