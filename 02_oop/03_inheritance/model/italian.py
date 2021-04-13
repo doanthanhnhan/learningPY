@@ -1,9 +1,9 @@
 class Italian():
-  def __init__(self):
-    pass
+  def __init__(self, isHandsome=False):
+    self.__isHandsome = isHandsome
 
   def info(self):
     return "I'm a Italian!"
 
-  def hello(self):
-    print("Hi, 123!!!")
+  def getIsHandsome(self):
+    return self.__isHandsome
