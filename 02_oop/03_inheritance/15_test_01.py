@@ -1,7 +1,6 @@
 from model.vietnamese import VietNamese
 from model.korean import Korean
-from model.italian import Italian
-
+from italian import Italian
 
 class ConLai(Italian, Korean):
   def __init__(self):

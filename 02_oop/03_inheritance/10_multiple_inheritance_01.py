@@ -22,13 +22,13 @@ class Duck():
     print("duck duck")
 
 
-class DogCat(Dog, Cat):
+class DogCat(Cat, Dog):
   def __init__(self):
     pass
 
   def soundDC(self):
-    super().soundD()
-    super().soundC()
+    super().sound()
+    # super().soundC()
 
 
 class DogCatDuck(DogCat, Duck):

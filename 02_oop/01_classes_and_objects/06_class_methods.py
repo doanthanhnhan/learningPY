@@ -5,8 +5,12 @@ class Player:
   def __init__(self, name):
     self.name = name  # creating instance variables
 
+  def a(self):
+    pass
+
   @classmethod
   def getTeamName(cls):
+    cls.a()
     return cls.teamName
 
 
